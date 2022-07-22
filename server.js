@@ -56,7 +56,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req,res) => {           //http request and response
 
 	res.render('home.hbs', {
-		pageTitle : 'New Home Page from jenkins with integration ',
+		pageTitle : 'New Home Page from jenkins with integration with webhook',
 		WelcomeMsg: 'Welcome to my website'
 	});
 
